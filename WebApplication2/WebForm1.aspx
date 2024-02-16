@@ -20,11 +20,6 @@
     </style>
     
 
-
-
-
-
-
     <div style="display:grid; grid-template-columns:1fr 1fr;">
         <div style="display:grid; grid-gap:10px;">
             <div>Filter inputs</div>
@@ -73,24 +68,7 @@
     <br /><br /><br />
     <div>View Table:</div>
     <div id="result" style="max-height: 300px;overflow-y: scroll;"> </div>
-    
-    
-    
-    
-    <!--
-        <input class="srcClass" id="src3" type="text" />
-        class si id se folosesc pentru a face referinta la element.
-        class poate fi comuna si poti sa ai mai multe nume simultan in ea.
-        ex: class="cls1 cls2" -> elementul tau paote fi selectat prin cls1,cls2 
-                              -> nu ai limita de clase
-                              -> mai multe elemente de html pot avea aceeasi clasa
-            -> in css si jquery folosesti . (punct) + numele clasei : .srcClass
-
-
-        id -> in css si jquery folosesti # (diez) + numele idului : #src
-
-        -->
-    
+        
 
 
     <script>        
@@ -119,16 +97,7 @@
         let deleteB = $("#deleteBt");
 
 
-        
-
-
-        //   srcNumeFiltru.addEventListener("keyup", () => {
-        //     result.textContent = "";
-        //      result.textContent = srcNumeFiltru.value;
-        //   });
-
-
-        //jquery selection by id
+   
 
         
     
