@@ -125,34 +125,6 @@
 
         }
 
-   /*     function insert() {
-            $("#result").html("");// curata divul
-            var form_data = new FormData(); // pregatesti formdata pentru a il trimite in back-end
-            form_data.append("nume_frontend", $("#srcNume").val());
-            form_data.append("cnp_frontend", $("#srcCnp").val());
-            form_data.append("mail_frontend", $("#srcMail").val());
-            form_data.append("telefon_frontend", $("#srcTelefon").val());
-
-            $.ajax({
-                url: 'brain.asmx/insert',// trimiti catre functia select din brain.asmx
-                type: 'POST',
-                data: form_data,
-                dataType: 'json',
-                contentType: false,
-                cache: false,
-                processData: false,
-                beforeSend: function () { },
-                success: function (data) {
-                    data.info = JSON.parse(data.info);
-                    data.info.map((e, i) => {// long story short asta e un loop / for each bla bla bla
-                        result.appendChild(createRow(e));// aici adaugi elementul de mai devreme
-                    });
-                    fetch2();
-                }
-            });
-        } 
-        */ 
-
     </script>
 
 
